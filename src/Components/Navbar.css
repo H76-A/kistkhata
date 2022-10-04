@@ -6,8 +6,8 @@
     
 }
 .Navbar{
-    position: fixed;
-    z-index:2;
+ position:fixed;
+    background: transparent;
 }
 
 .img-brand{

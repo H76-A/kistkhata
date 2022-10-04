@@ -4,8 +4,9 @@ import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import './Navbar.css'
 export default function Navbar1() {
   return (
-    <div className="Navbar">
-    <Navbar  >
+    
+    <div className="Navbar-box">
+    <Navbar className="Navbar" >
       <Container>
        <Navbar.Brand className="img-brand"><img alt="logo" src="./Images/logo.png" className="logo"/></Navbar.Brand>
         <Nav  className="justify-content">

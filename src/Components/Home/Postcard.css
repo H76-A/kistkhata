@@ -6,6 +6,7 @@
 .postcard{
     padding-top: 3em;
     text-align: center;
+    background:#FAFAFE; 
 }
 
 .postcard .sub-title{
@@ -21,6 +22,19 @@
 
 }
 .postcard .txt{
-    padding-top: 0px;
+   text-align: center;
+    margin-left: 25em;
+    width: 17em;
+    font-size: 1.2em;
+    font-weight: 400;
 
+}
+.postcard .btn{
+    background: #0F79DC;
+    border-radius: 128px;
+    width:19.5em;
+    height: 4em;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 1em
 }
