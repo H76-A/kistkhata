@@ -14,19 +14,20 @@ export default function Footer() {
    
       <Container>
         <Row>
-          <Col>
-            <img alt="logo" src="./Images/logo.png" />{" "}
-            <p>2022, All rights reserved by </p> <p>Unstationery</p>
+          <Col lg={1}></Col>
+          <Col lg={4}>
+            <img alt="logo" src="./Images/logo.png"  className="logo"/>{" "}
+            <p className="footer-1-txt">2022, All rights reserved by <p>Unstationery</p></p> 
           </Col>
-          <Col>
+          <Col lg={4}>
             {" "}
-            <p>Unstationery</p>
-            <Form.Control size="lg" type="text" placeholder="Email adress" />
+            <p className="footer-2-txt">Unstationery</p>
+            <Form.Control size="lg" type="text" placeholder="Email adress"  className="input-field"/>
             <Button variant="primary" type="submit">
                   Submit
                 </Button>
           </Col>
-          <Col>
+          <Col lg={3} className='footer-3'>
           <p>Contact us</p>
           <p>FAQ</p>
           <p>Privacy Policy</p>

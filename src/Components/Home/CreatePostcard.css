@@ -2,9 +2,9 @@
 .createpostcard{
     background: linear-gradient(180deg, #F5F6F9 0%, #E7E9EF 100%);
     padding-top: 3em;
-    text-align: center;
-    align-items: center;
     
+   text-align: center;
+   padding-bottom: 3em;
 }
 
 .createpostcard img{
@@ -38,21 +38,28 @@
     background: #0F79DC;
 border-radius: 128px;
 
+
 }
 .createpostcard .sub-title{
     font-size: 1.5em;
+    
 }
 .createpostcard .title{
     font-size: 2em;
+    
 }
 .createpostcard .txt{
-    margin-left: em;
-    width: 18em;
+    
+    
     color: #535E70;
     margin-bottom: 2em;
-    margin-left: 11em;
+    
 }
 .postcard-container{
 
     padding-bottom: 3em;
+
+}
+.txt-cointainer{
+    
 }

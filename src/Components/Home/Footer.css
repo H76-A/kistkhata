@@ -2,4 +2,34 @@
 .footer{
     background: rgba(36, 44, 55, 1);
     color: white;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    
+}
+
+.footer .input-field{
+    width: 13em;
+    background: transparent;
+    margin-bottom: 1em;
+}
+
+.footer .btn{
+    width: 16.4em;
+    background: transparent;
+}
+.footer .logo{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.footer .footer-3{
+    text-align: end;
+}
+.footer .footer-1-txt{
+    color: #535E70;
+
+}
+.footer .footer-2-txt{
+    margin-left: 5em;
+    color: #535E70;
 }
