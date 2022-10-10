@@ -1,0 +1,58 @@
+
+.createpostcard{
+    background: linear-gradient(180deg, #F5F6F9 0%, #E7E9EF 100%);
+    padding-top: 3em;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.createpostcard img{
+    position: inherit;
+    height: 100%;
+    width: 40%;
+    margin: 1em;
+}
+.createpostcard .img-box{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px -10px rgba(36, 44, 55, 0.08);
+    border-radius: 8px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 2em;
+
+   
+}
+
+.createpostcard .img-container{
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  
+}
+.createpostcard .btn{
+    width: 20em;
+    height: 3.5em;
+    font-size: 0.7em;
+    font-weight: 700;
+    background: #0F79DC;
+border-radius: 128px;
+
+}
+.createpostcard .sub-title{
+    font-size: 1.5em;
+}
+.createpostcard .title{
+    font-size: 2em;
+}
+.createpostcard .txt{
+    margin-left: em;
+    width: 18em;
+    color: #535E70;
+    margin-bottom: 2em;
+    margin-left: 11em;
+}
+.postcard-container{
+
+    padding-bottom: 3em;
+}

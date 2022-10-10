@@ -15,18 +15,23 @@
 .postcard .title{
     font-size: 2em;
 }
+
 .postcard img{
     width: 30%;
     height: 30%;
     position:relative;
 
 }
+.postcard .post-txt{
+    margin-bottom: 1em;
+}
 .postcard .txt{
-   text-align: center;
-    margin-left: 25em;
-    width: 17em;
+  margin: auto;
+    
+    width:25em;
     font-size: 1.2em;
     font-weight: 400;
+
 
 }
 .postcard .btn{

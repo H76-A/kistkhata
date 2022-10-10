@@ -1,0 +1,20 @@
+
+.navbar2{
+    position: fixed;
+    background: transparent  !important;
+    background-color: transparent !important;
+    margin-top: 2em;
+}
+
+.nav-link{
+   
+    padding-bottom: 0px;
+    margin-top: 0.5em
+}
+
+.nav-logo{
+   
+    margin-right: 10em;
+    margin-left: 3.2em;
+}
+

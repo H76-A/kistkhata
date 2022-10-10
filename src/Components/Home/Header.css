@@ -33,19 +33,17 @@
     height: 4em;
     font-weight: 700;
     font-size: 1em;
-    margin-bottom: 4.2em
-}
-.img-box{
-    
-    width:49%;
-    height:73.9%;
     
 }
-img{
-    position: absolute;
-  object-fit: cover;
-  width:56.2%;
-  height:74%;
-  right: 0;
+.header .img-box{
+    margin-right: 1.9em;
+}
+.header img{
+  position: inherit;
+ 
+  width:120%;
+ 
   
+    
 }
+
