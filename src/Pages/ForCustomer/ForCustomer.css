@@ -1,0 +1,46 @@
+
+.forcustomer{
+    padding-top: 15em;
+    background:#FAFAFE; 
+    padding-bottom: 30em;
+    
+}
+
+.forcustomer img{
+    padding-top: 1em;
+    width:20em;
+
+}
+.forcustomer .txt{
+    font-weight: 400;
+font-size: 16px;
+
+}
+.forcustomer .sub-title{
+    font-weight: 700;
+font-size: 24px;
+}
+.forcustomer .proposal{
+    margin-top: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+ 
+    background: white;
+    
+}
+.proposal-txt {
+    color: #0F79DC;
+    font-weight: 700;
+font-size: 32px;
+}
+.forcustomer .input-field{
+    
+    background: #F5F6F9;
+    border-radius: 4px;
+}
+.forcustomer .btn{
+    margin-top: 1em;
+    width: 22em;
+    background: #0F79DC;
+border-radius: 128px;
+}

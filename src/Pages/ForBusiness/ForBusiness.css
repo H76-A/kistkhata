@@ -1,0 +1,36 @@
+
+.forbusiness{
+   
+    background:#FAFAFE; 
+    text-align: center;
+    padding-top: 10em;
+}
+.forbusiness .title{
+    padding-bottom: 9em;
+}
+
+.forbusiness .proposal{
+    padding-top: 5em;
+    padding-bottom: 5em;
+ 
+    background: white;
+    margin-bottom: 40em;
+   
+}
+
+.proposal-txt {
+    color: #0F79DC;
+    font-weight: 700;
+font-size: 32px;
+}
+.forbusiness .input-field{
+    
+    background: #F5F6F9;
+    border-radius: 4px;
+}
+.forbusiness .btn{
+    margin-top: 1em;
+    width: 22em;
+    background: #0F79DC;
+border-radius: 128px;
+}
