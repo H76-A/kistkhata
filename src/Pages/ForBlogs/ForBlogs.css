@@ -1,10 +1,16 @@
 .forblogs{
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     padding-top: 10em;
+    background:#FAFAFE; 
     
 }
+
+.forblogs .blog-background{
+    background-color: white;
+}
+
 
 
 .forblogs .blogs-row{
@@ -40,4 +46,39 @@ color: #242C37;
     font-weight: 400;
     font-size: 14px;
     color: #535E70;
+}
+
+.forblogs .Blogs-proposal{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: white;
+}
+
+.forblogs .input-field{
+    width: 13em;
+    background: #F5F6F9;
+border-radius: 4px;
+    margin-bottom: 1em;
+    width: 432px;
+height: 48px;
+}
+
+.forblogs .btn{
+    width: 16.4em;
+    
+    width: 432px;
+height: 56px;
+}
+.forblogs .proposal-txt{
+    font-weight: 700;
+font-size: 32px;
+color: #242C37;
+margin-bottom: 2em;
+}
+.forblogs .proposal-txt span{
+ color: #0F79DC;
+}
+
+.forblogs .search-field{
+    width: 42em;
 }

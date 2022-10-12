@@ -22,10 +22,10 @@ export default function Navbar2() {
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
             <Nav.Link as={Link} to='/testimonials'>Testimonials</Nav.Link>
             <Nav.Link as={Link} to='/forbusiness'>For business</Nav.Link>
-            <Nav.Link as={Link} to='/forcustomer'For >Customers</Nav.Link>
+            <Nav.Link as={Link} to='/forcustomer' >Customers</Nav.Link>
             <Nav.Link as={Link} to='/forblogs'>Blog</Nav.Link>
-            <Nav.Link as={Link} to='/forteam'>Team</Nav.Link>
-            <Nav.Link as={Link} to='/login'>
+            <Nav.Link as={Link} to='/team'>Team</Nav.Link>
+            <Nav.Link >
               <Button variant="outline-primary">Log in</Button>
             </Nav.Link>
           </Nav>

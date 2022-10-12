@@ -17,7 +17,7 @@ export default function Footer() {
           <Col lg={1}></Col>
           <Col lg={4}>
             <img alt="logo" src="./Images/logo.png"  className="logo"/>{" "}
-            <p className="footer-1-txt">2022, All rights reserved by <p>Unstationery</p></p> 
+            <p className="footer-1-txt">2022, All rights reserved by <span>Unstationery</span></p> 
           </Col>
           <Col lg={4}>
             {" "}

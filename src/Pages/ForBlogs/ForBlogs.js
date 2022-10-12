@@ -4,44 +4,58 @@ import React from "react";
  * Bootstrap
  */
 
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card,Form ,Button} from "react-bootstrap";
+import { Link } from "react-router-dom";
 // style
 import "./ForBlogs.css";
 
+
+
 export default function ForBlogs() {
+
   return (
     <div className="forblogs">
+      <div>
       <Container>
         <Row>
-          <Col lg={1}></Col>
+          <Col lg={2}></Col>
           <Col>
             <p className="blog-title">Our blog title</p>
           </Col>
         </Row>
         <Row>
           {" "}
-          <Col lg={1}></Col>
-          <Col className="blog-search">Serach Field</Col>
+          <Col lg={2}></Col>
+          
+          <Col className="blog-search">
+            <Form.Control
+                size="lg"
+                type="text"
+                placeholder="Search"
+                className="search-field"
+              /></Col>
         </Row>
         <Container>
-          <Row className="blogs-row">
-            <Col lg={1}></Col>
-            <Col lg={5}>
+          <Row className="blogs-row ">
+            <Col lg={2}></Col>
+            <Col lg={5} className="blog-background">
+              <Link to='/Article' >
               <img alt="top-rectangle" src="./Images/Rectangle-1.png" />
+              </Link>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="blog-background" >
               <p className="blog-txt">
                 Does knowing the amount of carbs in your food really make a
                 difference?
               </p>
               <p className="blog-txt1">
                 Michelle Jolly{" "}
-                <p className="blog-txt2">Created March 28th, 2021</p>
+                <span className="blog-txt2">Created March 28th, 2021</span>
               </p>
             </Col>
           </Row>
           <Row className="blogs-row">
-            <Col lg={1}></Col>
+            <Col lg={2}></Col>
             <Col lg={3}>
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-2.png" />
@@ -79,7 +93,7 @@ export default function ForBlogs() {
             </Col>
           </Row>
           <Row className="blogs-row">
-            <Col lg={1}></Col>
+            <Col lg={2}></Col>
             <Col lg={3}>
               {" "}
               <Card style={{ width: "17rem" }}>
@@ -121,23 +135,23 @@ export default function ForBlogs() {
         </Container>
         <Container>
           <Row className="blogs-row">
-            <Col lg={1}></Col>
-            <Col lg={5}>
+            <Col lg={2}></Col>
+            <Col lg={5} className="blog-background">
               <img alt="top-rectangle" src="./Images/Rectangle-1.png" />
             </Col>
-            <Col lg={4}>
+            <Col lg={4} className="blog-background">
               <p className="blog-txt">
                 Does knowing the amount of carbs in your food really make a
                 difference?
               </p>
               <p className="blog-txt1">
                 Michelle Jolly{" "}
-                <p className="blog-txt2">Created March 28th, 2021</p>
+                <span className="blog-txt2">Created March 28th, 2021</span>
               </p>
             </Col>
           </Row>
           <Row className="blogs-row">
-            <Col lg={1}></Col>
+            <Col lg={2}></Col>
             <Col lg={3}>
               {" "}
               <Card style={{ width: "17rem" }}>
@@ -176,7 +190,7 @@ export default function ForBlogs() {
             </Col>
           </Row>
           <Row className="blogs-row">
-            <Col lg={1}></Col>
+            <Col lg={2}></Col>
             <Col lg={3}>
               {" "}
               <Card style={{ width: "17rem" }}>
@@ -215,7 +229,26 @@ export default function ForBlogs() {
             </Col>
           </Row>
         </Container>
+        
       </Container>
+      </div>
+     
+      <div className="Blogs-proposal">
+        <Container>
+          <Row >
+            <Col lg={1}></Col>
+            <Col lg={5}> <img alt="cta-small" src=".\Images\cta-small.png" /></Col>
+            <Col lg={5}><p className="proposal-txt">Surprise your loved <span > homies </span>with the exclusive card</p>
+            
+            <Form.Control size="lg" type="text" placeholder="name@mail.com"  className="input-field"/>
+            <Button variant="primary" type="submit">
+            Get a proposal
+                </Button>
+            </Col>
+          </Row>
+        </Container>
+        </div>
+   
     </div>
   );
 }
