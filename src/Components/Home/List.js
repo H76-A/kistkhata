@@ -18,7 +18,7 @@ export default function List() {
               <img alt="peopel" src="./Images/Ellipse-1.png" />
             </div>
           </Col>
-          <Col>
+          <Col lg={7}>
             <p className="title">Name Surname</p>
             <p className="sub-title">Position, company name, etc.</p>
             <p className="txt">
@@ -36,7 +36,7 @@ export default function List() {
               <img alt="peopel" src="./Images/Ellipse-2.png" />
             </div>
           </Col>
-          <Col>
+          <Col lg={7}>
             <p className="title">Another Name Surname</p>
             <p className="sub-title">And position, company name, etc.</p>
             <p className="txt">
@@ -55,7 +55,7 @@ export default function List() {
               <img alt="peopel" src="./Images/Ellipse-3.png" />
             </div>
           </Col>
-          <Col>
+          <Col lg={7}>
             <p className="title">Another Name Surname</p>
             <p className="sub-title">And position, company name, etc.</p>
             <p className="txt">
@@ -76,7 +76,7 @@ export default function List() {
               <img alt="peopel" src="./Images/Ellipse-4.png" />
             </div>
           </Col>
-          <Col>
+          <Col lg={7}>
             <p className="title">Name Surname</p>
             <p className="sub-title">Position, company name, etc</p>
             <p className="txt">
@@ -94,7 +94,7 @@ export default function List() {
               <img alt="peopel" src="./Images/Ellipse-4.png" />
             </div>
           </Col>
-          <Col>
+          <Col lg={7}>
             <p className="title">Name Surname</p>
             <p className="sub-title">Position, company name, etc.</p>
             <p className="txt">

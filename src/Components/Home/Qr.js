@@ -14,7 +14,7 @@ export default function Qr() {
       <Container>
         <Row>
           <Col lg={6}><div className="img-box"><img alt='buseness-card' src="./Images/Business-card.png" /></div></Col>
-          <Col lg={6}>
+          <Col lg={5}>
             <p className="title">No app downloads</p>
             <p className="sub-title">
               Nobody likes downloading apps. So all of our mixed reality
@@ -32,7 +32,7 @@ export default function Qr() {
             </p>
             </div>
           </Col>
-          <Col lg={6}><div className="card">
+          <Col lg={5}><div className="card">
             <p className="card-title">Unstationery live card</p>
             <p className="card-line"> </p>
             <p className="card-txt">up to 4 times more impressive</p>

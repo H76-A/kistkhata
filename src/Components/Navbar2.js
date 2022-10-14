@@ -18,8 +18,9 @@ export default function Navbar2() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" >
-            <Nav.Link as={Link} to='/'>Home</Nav.Link>
+          <div className="nav-align">          
+            <Nav className="me-auto">
+            <Nav.Link as={Link} to='/' ><span></span>Home</Nav.Link>
             <Nav.Link as={Link} to='/testimonials'>Testimonials</Nav.Link>
             <Nav.Link as={Link} to='/forbusiness'>For business</Nav.Link>
             <Nav.Link as={Link} to='/forcustomer' >Customers</Nav.Link>
@@ -29,9 +30,12 @@ export default function Navbar2() {
               <Button variant="outline-primary">Log in</Button>
             </Nav.Link>
           </Nav>
+          </div>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <div className="extra"></div>
     </div>
   );
 }

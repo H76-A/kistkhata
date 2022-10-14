@@ -16,12 +16,12 @@
   font-size: 1em;
   font-weight: 500;
   color: rgba(36, 44, 55, 1);
-  width: 30em;
+  
 }
 .list .list-line {
   background-color: rgba(180, 193, 214, 1);
   height: 0.1em;
-  width: 30em;
+
   margin: 2em 0 2em 0;
 }
 .list .img-box {

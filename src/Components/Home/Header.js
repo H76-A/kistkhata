@@ -19,7 +19,7 @@ export default function Header() {
                     </Col>
                     <Col lg={6}>
                         <div className='img-box'>
-                        <img alt='hand' src='./Images/hand.png' />
+                        <img alt='hand' src='./Images/hand-1.png' />
                         </div>
                     </Col>
                 </Row>
