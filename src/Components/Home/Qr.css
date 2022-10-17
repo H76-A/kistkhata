@@ -31,10 +31,12 @@
 }
 .Qr .card{
     border: 2px dotted;
+    border-color: #0F79DC;  
     width: 23em;
-    height: 12em;
+    height: 13em;
     padding-left: 1em;
     padding-right:  1em;
+    padding: 1em;
     
 }
  .card .card-title{

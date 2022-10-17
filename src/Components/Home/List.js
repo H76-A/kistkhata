@@ -13,7 +13,8 @@ export default function List() {
     <div className="list">
       <Container>
         <Row>
-          <Col lg={4}>
+          <Col lg={2}></Col>
+          <Col lg={2}>
             <div className="img-box">
               <img alt="peopel" src="./Images/Ellipse-1.png" />
             </div>
@@ -31,7 +32,8 @@ export default function List() {
         </Row>
 
         <Row>
-          <Col lg={4}>
+        <Col lg={2}></Col>
+          <Col lg={2}>
             <div className="img-box">
               <img alt="peopel" src="./Images/Ellipse-2.png" />
             </div>
@@ -50,7 +52,8 @@ export default function List() {
         </Row>
 
         <Row>
-          <Col lg={4}>
+        <Col lg={2}></Col>
+          <Col lg={2}>
             <div className="img-box">
               <img alt="peopel" src="./Images/Ellipse-3.png" />
             </div>
@@ -71,7 +74,8 @@ export default function List() {
         </Row>
 
         <Row>
-          <Col lg={4}>
+        <Col lg={2}></Col>
+          <Col lg={2}>
             <div className="img-box">
               <img alt="peopel" src="./Images/Ellipse-4.png" />
             </div>
@@ -89,11 +93,13 @@ export default function List() {
         </Row>
 
         <Row>
-          <Col lg={4}>
+        <Col lg={2}></Col>
+          <Col lg={2}>
             <div className="img-box">
               <img alt="peopel" src="./Images/Ellipse-4.png" />
             </div>
           </Col>
+          
           <Col lg={7}>
             <p className="title">Name Surname</p>
             <p className="sub-title">Position, company name, etc.</p>
