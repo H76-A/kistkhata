@@ -40,7 +40,7 @@ export default function ForBlogs() {
             <Col lg={2}></Col>
             <Col lg={5} className="blog-background">
               <Link to='/Article' >
-              <img alt="top-rectangle" src="./Images/Rectangle-1.png" />
+              <img alt="top-rectangle" src="./Images/Rectangle-1.png"  className="top-image"/>
               </Link>
             </Col>
             <Col lg={4} className="blog-background" >
@@ -56,7 +56,7 @@ export default function ForBlogs() {
           </Row>
           <Row className="blogs-row">
             <Col lg={2}></Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-2.png" />
                 <Card.Body>
@@ -67,7 +67,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-3.png" />
@@ -79,7 +79,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-4.png" />
@@ -94,7 +94,7 @@ export default function ForBlogs() {
           </Row>
           <Row className="blogs-row">
             <Col lg={2}></Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-5.png" />
@@ -107,7 +107,7 @@ export default function ForBlogs() {
               </Card>
             </Col>
 
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-6.png" />
@@ -119,7 +119,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-7.png" />
@@ -137,7 +137,7 @@ export default function ForBlogs() {
           <Row className="blogs-row">
             <Col lg={2}></Col>
             <Col lg={5} className="blog-background">
-              <img alt="top-rectangle" src="./Images/Rectangle-1.png" />
+              <img alt="top-rectangle" src="./Images/Rectangle-1.png"  className="top-image"/>
             </Col>
             <Col lg={4} className="blog-background">
               <p className="blog-txt">
@@ -152,7 +152,7 @@ export default function ForBlogs() {
           </Row>
           <Row className="blogs-row">
             <Col lg={2}></Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-2.png" />
@@ -164,7 +164,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-3.png" />
@@ -176,7 +176,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-4.png" />
@@ -191,7 +191,7 @@ export default function ForBlogs() {
           </Row>
           <Row className="blogs-row">
             <Col lg={2}></Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-5.png" />
@@ -203,7 +203,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={3}>
+            <Col lg={3} className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-6.png" />
@@ -215,7 +215,7 @@ export default function ForBlogs() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col>
+            <Col className="col-margin">
               {" "}
               <Card style={{ width: "17rem" }}>
                 <Card.Img variant="top" src="./Images/Rectangle-7.png" />
@@ -237,7 +237,7 @@ export default function ForBlogs() {
         <Container>
           <Row >
             <Col lg={1}></Col>
-            <Col lg={5}> <img alt="cta-small" src=".\Images\cta-small.png" /></Col>
+            <Col lg={5}> <img alt="cta-small" src=".\Images\cta-small.png" className="bottom-image" /></Col>
             <Col lg={5}><p className="proposal-txt">Surprise your loved <span > homies </span>with the exclusive card</p>
             
             <Form.Control size="lg" type="text" placeholder="name@mail.com"  className="input-field"/>

@@ -62,7 +62,7 @@ export default function Team() {
             <Col lg={1}></Col>
             <Col lg={5}>
               {" "}
-              <img alt="cta-small" src=".\Images\cta-small.png" />
+              <img alt="cta-small" src=".\Images\cta-small.png" className="bottom-image" />
             </Col>
             <Col lg={5}>
               <p className="proposal-txt">

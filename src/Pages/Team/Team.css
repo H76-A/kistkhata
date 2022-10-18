@@ -48,16 +48,18 @@ margin-bottom: 2em;
 }
 
 .team .btn{
-    width: 16.4em;
-    
-    width: 432px;
+  width:  100%;
 height: 56px;
 }
 .team .input-field{
-    width: 13em;
+    width: 100%;
     background: #F5F6F9;
 border-radius: 4px;
     margin-bottom: 1em;
-    width: 432px;
+   
 height: 48px;
+}
+
+.team .bottom-image{
+    width: 100%;
 }

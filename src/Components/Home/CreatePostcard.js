@@ -20,7 +20,7 @@ export default function CreatePostcard() {
           <Row></Row>
             <Row >
                <Col lg={3}></Col>
-                <Col lg ={2}><div className='img-box'><img alt='pic'src='./Images/image.png' /></div></Col>
+                <Col lg ={2}><div className='img-box'><img alt='pic'src='./Images/photo.png' /></div></Col>
                 <Col lg ={2}><div className='img-box'><img alt='video' src='./Images/Video.png'/></div></Col>
                 <Col lg ={2}><div className='img-box'><img  alt='location' src='./Images/Loc.png'/></div></Col>
             </Row>

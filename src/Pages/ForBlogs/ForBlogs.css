@@ -59,14 +59,14 @@ color: #242C37;
     background: #F5F6F9;
 border-radius: 4px;
     margin-bottom: 1em;
-    width: 432px;
+    width: 100%;
 height: 48px;
 }
 
 .forblogs .btn{
-    width: 16.4em;
+   
     
-    width: 432px;
+    width:100%;
 height: 56px;
 }
 .forblogs .proposal-txt{
@@ -80,5 +80,15 @@ margin-bottom: 2em;
 }
 
 .forblogs .search-field{
-    width: 42em;
+    width: 100%;
+}
+.forblogs .top-image{
+    
+    width: 100%;
+}
+.forblogs .bottom-image{
+    width: 100%;
+}
+.forblogs .col-margin{
+    margin-right: em;
 }
